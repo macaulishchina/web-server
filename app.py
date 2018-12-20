@@ -37,6 +37,5 @@ def addUser():
 
 @app.route('/query', methods=['GET'])
 def queryAllUser():
-    #print(dao.User.query.all())
     return "query"
 
